@@ -4,6 +4,9 @@
 
 .content {
   /* TODO: Define the grid area here */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20px 1fr 20px;
 }
 
 .header {
