@@ -1,12 +1,16 @@
-  /* TODO: Define the grid area here */
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20px 1fr 20px;
-}
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+    /* TODO: Define the grid area here */
+    
+  }
 
 .content {
   /* TODO: Define the grid area here */
-  
+  grid-column: 2 / 4;
+  grid-row: 2;
 }
 
 .header {
@@ -21,6 +25,9 @@
 }
 
 .wrapper {
+    display: grid;
+  grid-template-columns: 1fr 120px;
+  grid-template-rows: 50px 1fr 50px;
   display: grid;
   grid-gap: 10px;
   background-color: #fff;
