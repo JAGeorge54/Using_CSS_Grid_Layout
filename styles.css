@@ -16,6 +16,8 @@
 
 .footer {
   /* TODO: Define the grid area here */
+  grid-column: 1 / 4;
+  grid-row: 3;
 }
 
 .wrapper {
