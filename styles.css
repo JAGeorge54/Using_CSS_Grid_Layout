@@ -11,7 +11,7 @@
 
 .header {
   /* TODO: Define the grid area here */
-  
+  grid-column: 2 / 4;
 }
 
 .footer {
